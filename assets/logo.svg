@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="secondaryGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Circular background -->
+  <circle cx="256" cy="256" r="200" fill="white" />
+  
+  <!-- Modern building silhouette -->
+  <path d="M150 320 L150 200 L256 140 L362 200 L362 320 L320 320 L320 220 L256 180 L192 220 L192 320 Z" fill="url(#primaryGradient)" />
+  
+  <!-- Building base/foundation -->
+  <rect x="130" y="320" width="252" height="30" rx="5" fill="url(#secondaryGradient)" />
+  
+  <!-- Dollar symbol -->
+  <path d="M256 240 C270 240, 280 230, 280 215 C280 200, 270 190, 256 190 L245 190 C235 190, 230 195, 230 205 C230 215, 235 220, 245 220 L256 220 C266 220, 266 230, 256 230 L245 230 C235 230, 230 235, 230 245 C230 255, 240 265, 256 265 L260 265 C275 265, 285 255, 285 240 L260 240 L260 265 L250 265 L250 190 L260 190 L260 215 L272 215" stroke="url(#secondaryGradient)" stroke-width="12" fill="none" stroke-linecap="round" />
+  
+  <!-- Protective shield outline -->
+  <path d="M256 80 Q360 100, 390 220 Q420 340, 256 410 Q92 340, 122 220 Q152 100, 256 80" stroke="url(#primaryGradient)" stroke-width="14" fill="none" />
+  
+  <!-- Connection nodes representing digital banking -->
+  <circle cx="170" cy="160" r="8" fill="url(#secondaryGradient)" />
+  <circle cx="342" cy="160" r="8" fill="url(#secondaryGradient)" />
+  <circle cx="150" cy="270" r="8" fill="url(#secondaryGradient)" />
+  <circle cx="362" cy="270" r="8" fill="url(#secondaryGradient)" />
+  
+  <!-- Connection lines -->
+  <line x1="170" y1="160" x2="256" y2="140" stroke="url(#secondaryGradient)" stroke-width="3" />
+  <line x1="342" y1="160" x2="256" y2="140" stroke="url(#secondaryGradient)" stroke-width="3" />
+  <line x1="150" y1="270" x2="192" y2="270" stroke="url(#secondaryGradient)" stroke-width="3" />
+  <line x1="362" y1="270" x2="320" y2="270" stroke="url(#secondaryGradient)" stroke-width="3" />
+</svg>
